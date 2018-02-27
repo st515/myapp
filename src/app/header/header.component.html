@@ -1,0 +1,12 @@
+<p>
+  header works!
+</p>
+
+<p>
+  header title is {{title}}
+</p>
+
+<!-- リストをループで展開 -->
+<ng-container *ngFor="let button of buttons">   <!-- ng-container要素はhtmlに出力されない -->
+  <div>{{button}}</div>
+</ng-container>
